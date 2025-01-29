@@ -11,14 +11,14 @@ body{
 
 .navbar{
     background-color: #333;
-    font-family:calibri; padding-right:15px; padding-left:15px;
+    font-family:calibri; padding-righ00t:15px; padding-left:15px;
     height:100px;
     
 
 
 }
 .navbar a{
-    padding: 14px 14px;
+    padding: 10px 10px;
 }
 .navdiv{
     display:flex; align-items:center;justify-content: space-between;

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="refresh" content = 1 >
        
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agricultural-Sciences Past Papers</title>
@@ -20,9 +21,10 @@
             font-size:32px;
             padding-top:5px;
             padding-bottom:5px;
+            margin-left:500px;;
             color:white;
             text-shadow: 2px 2px 0px rgba(30, 80, 223, 10);
-            /*text-decoration:underline;*/
+           
         }
         .logo-paper{
             background-color:rgb(72, 106, 136);
@@ -30,7 +32,25 @@
             border: 2px solid grey;
             padding:20px;
             margin:20px 0;
+            display:flex;
+            align-items:center;
+            /*justify-content: space-between;*/
         } 
+        .back-btn{
+            font-family:Arial, Helvetica, sans-serif;
+            padding:5px;
+            
+            border-radius:5px;
+            border:none;
+            font-size:18px;
+        }
+        .back-btn:hover{
+            text-decoration:underline;
+            text-decoration-color: cadetblue;
+            color: cadetblue;
+            
+            
+        }
         
         .style-container{
             margin-top:15px;
@@ -75,12 +95,14 @@
             text-align:center;
             margin-top:20px;
         }
-        
+ 
+      
        
     </style>
 </head>
 <body>
     <div class = "logo-paper">
+        <button class = "back-btn"><a href="/dashboard.html"></a> Back</button>
         <h1>Agricultural-Sciences Past Papers </h1>
     </div>
     <p id = "info-paragraph">Click on a paper below to view and download</p>
